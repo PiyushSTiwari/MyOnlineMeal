@@ -19,7 +19,7 @@
 
 /* Home Section */
 #home{
-    height: 582px;
+    height: 643px;
 }
 
 #home p {
@@ -49,6 +49,10 @@
     flex-wrap: wrap;
 }
 
+#client-section::before {
+    height: 31%;
+}
+
 .client-item {
     padding: 15px;
 }
@@ -70,7 +74,9 @@
 }
 
 /* Footer */
-
+footer {
+    font-size: 11px;
+}
 
 
 /* Utility Classes */
