@@ -49,8 +49,12 @@
     flex-wrap: wrap;
 }
 
+#client-section {
+    margin-bottom: 21px;
+}
+
 #client-section::before {
-    height: 31%;
+    height: 23%;
 }
 
 .client-item {
